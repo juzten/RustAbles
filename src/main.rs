@@ -30,7 +30,7 @@ mod tests {
     }
 
     #[test]
-    fn teset_c_to_f_works() {
+    fn test_c_to_f_works() {
         assert_eq!(convert_c_to_f(70), 158)
     }
 }
