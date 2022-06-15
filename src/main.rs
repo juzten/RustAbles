@@ -69,6 +69,12 @@ mod tests {
 
     #[test]
     fn test_c_to_f_works() {
-        assert_eq!(convert_c_to_f(70), 158)
+        assert_eq!(convert_c_to_f(70), 158);
     }
+  
+    #[test]
+    fn test_define_x() {
+        assert_eq!(define_x(), "hello");
+    }
+
 }
